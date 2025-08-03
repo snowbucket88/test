@@ -6,7 +6,7 @@
         status,
         amount,
         created
-    FROM raw.stripe.payment
+    FROM {{source('stripe_payment','payment')}}
 )
 
 SELECT *
