@@ -1,8 +1,3 @@
-{{
-    config(materialized='table')
-}}
-
-
 /* ---------- 1. Raw source tables ---------- */
 WITH
 customers AS (
